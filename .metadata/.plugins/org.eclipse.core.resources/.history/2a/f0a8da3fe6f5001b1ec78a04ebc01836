@@ -1,0 +1,7 @@
+package com.example.magazin.reprositery;
+
+import org.hibernate.metamodel.model.convert.spi.JpaAttributeConverter;
+@RepositoryRestController
+public interface ClientReprository extends JpaAttributeConverter<Client,Long>{
+
+}
